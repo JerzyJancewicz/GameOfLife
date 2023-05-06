@@ -1,5 +1,9 @@
+import window.Window;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        int gameWidth = 860;
+        int gameHeight = 640;
+        new Window(gameWidth, gameHeight);
     }
 }
