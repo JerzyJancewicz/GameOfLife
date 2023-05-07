@@ -11,7 +11,7 @@ public class Window extends JFrame {
         this.gameWidth = gameWidth;
         this.gameHeight = gameHeight;
 
-        this.setSize(gameWidth, gameHeight);
+        this.setSize(gameWidth + 16, gameHeight + 40);
         this.setVisible(true);
         this.setTitle("Game of Life");
         this.setResizable(false);

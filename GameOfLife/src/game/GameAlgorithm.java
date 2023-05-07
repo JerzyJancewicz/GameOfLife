@@ -2,5 +2,9 @@ package game;
 
 public class GameAlgorithm {
 
-    // check if....
+    public void checkAlive(boolean condition){
+        if(condition){
+
+        }
+    }
 }

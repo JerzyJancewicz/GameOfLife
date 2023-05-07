@@ -4,10 +4,12 @@ public class Node{
 
     private int xPosition;
     private int yPosition;
+    private boolean condition;
 
-    public Node(int xPosition, int yPosition) {
+    public Node(int xPosition, int yPosition, boolean condition) {
         this.xPosition = xPosition;
         this.yPosition = yPosition;
+        this.condition = condition;
     }
 
     public int getxPosition() {
@@ -24,5 +26,13 @@ public class Node{
 
     public void setyPosition(int yPosition) {
         this.yPosition = yPosition;
+    }
+
+    public boolean isCondition() {
+        return condition;
+    }
+
+    public void setCondition(boolean condition) {
+        this.condition = condition;
     }
 }
