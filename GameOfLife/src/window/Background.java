@@ -1,7 +1,5 @@
 package window;
-
 import game.Node;
-
 import java.awt.*;
 
 public class Background {
